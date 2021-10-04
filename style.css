@@ -1,0 +1,70 @@
+a {
+	color: #0000FF;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+
+.help {
+	background-color: #FFFF88;
+}
+
+
+.help:before {
+  content: url(help.png);
+}
+
+
+#error {
+	background-color: #FFDDDD;
+	color: #CC0000;
+	position: absolute;
+}
+
+
+.code {
+	font-family:Courier New;
+	background-color: #CCCCCC;
+	padding: 4px 4px 4px 4px;
+	margin: 4px 4px 4px 4px;
+}
+
+
+.codetoinsert:after{
+	content:"...";
+	font-family:Arial;
+}
+
+.codetoinsert:before{
+	content:"...";
+	font-family:Arial;
+
+}
+
+.codetoinsert {
+	color: #888888;
+	background-color: #EEEEEE;
+}
+
+
+textarea {
+	padding: 8px;
+	font-size: 18px;
+}
+
+
+
+#hashtable {
+	border-style: none;
+	padding: 16px 16px 16px 16px;
+	margin: 16px 16px 16px 16px;
+}
+
+
+#examples {
+	
+}
+
+#palette {
+	
+}
