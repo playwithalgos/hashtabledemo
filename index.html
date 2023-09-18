@@ -2,9 +2,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="jquery-1.11.1.min.js"></script>
-	<script src="main.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">	
 	<LINK href="style.css" rel="stylesheet" type="text/css">
 
 </head>
@@ -14,33 +12,24 @@
 
 	<table id="examples">
 		<tr>
-			<td valign="top">
-				<a onclick="example_direct_adress_table()">Adresse direct</a></br>
+			<td>
+				<a onclick="example_direct_adress_table()">Bitvector</a></br>
 			</td>
 
 			<td></td>
 			<td></td>
 			<td></td>
 
-			<td valign="top">
-				<a onclick="example_uniform_hash_real_numbers()">Hachage, nombres réels entre 0 et 1</a></br>
-				<a onclick="example_hash_strings()">Hachage, chaîne de caractères</a></br>
-				<a onclick="example_hash_strings2()">Hachage, chaîne de caractères (deuxième exemple)</a></br>
+			<td>
+				<a onclick="example_uniform_hash_real_numbers()">Real numbers between 0 and 1</a></br>
+				<a onclick="example_hash_strings()">Strings (example 1)</a></br>
+				<a onclick="example_hash_strings2()">Strings (example 2)</a></br>
 
 
-				<a onclick="example_uniform_hash_point()">Hachage, objets</a></br>
+				<a onclick="example_uniform_hash_point()">Objects</a></br>
 			</td>
 
 
-
-
-			<td></td>
-			<td></td>
-			<td></td>
-
-			<td valign="top">
-				<a onclick="example_uniform_hash()">Hachage uniforme</a></br>
-				<a onclick="example_uniform_hash_rand()">Hachage uniforme, entrée aléatoire</a></br>
 
 
 			<td></td>
@@ -48,15 +37,24 @@
 			<td></td>
 
 			<td>
-				<a onclick="example_uniform_hash_attack()">Hachage uniforme : attaque</a>
+				<a onclick="example_uniform_hash()">Uniform hashing</a></br>
+				<a onclick="example_uniform_hash_rand()">Random keys</a></br>
+
+
+			<td></td>
+			<td></td>
+			<td></td>
+
+			<td>
+				<a onclick="example_uniform_hash_attack()">Attack</a>
 			</td>
 
 			<td></td>
 			<td></td>
 			<td></td>
 
-			<td valign="top">
-				<a onclick="example_universal_hash()">Hachage universel</a></br>
+			<td>
+				<a onclick="example_universal_hash()">Universal hashing</a></br>
 			</td>
 
 			<td></td>
@@ -64,10 +62,9 @@
 			<td></td>
 
 
-			<td valign="top">
-				<a onclick="example_universal_hash()">Hachage universel</a></br>
-				<a onclick="example_perfect_hash_bad_example()">Hachage parfait (mauvais exemple)</a></br>
-				<a onclick="example_perfect_hash_first_part()">Hachage parfait (première partie)</a>
+			<td>
+				<a onclick="example_perfect_hash_bad_example()">Perfect hashing (bad example)</a></br>
+				<a onclick="example_perfect_hash_first_part()">Perfect hashing (n elements in n<sup>2</sup> cells)</a>
 			</td>
 		</tr>
 	</table>
@@ -84,7 +81,7 @@
 
 	<table>
 		<tr>
-			<td id="palette" valign="top">
+			<td id="palette">
 				<div id="error"></div>
 				Parameters:</br>
 				<textarea id="init" rows="5" cols="50"></textarea> </br></br>
@@ -96,7 +93,7 @@
 				</br>
 
 			</td>
-			<td valign="top">
+			<td>
 				<div><span id="factor"></span>
 					<span id="mean"></span>
 					<span id="worst"></span>
@@ -108,6 +105,9 @@
 	</div>
 	<div style="text-align: right">
 		-- François Schwarzentruber, francois.schwarzentruber [put AT] ens-rennes.fr</div>
+
+
+		<script src="main.js" type="text/javascript"></script>
 </body>
 
 </html>

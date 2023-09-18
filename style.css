@@ -1,5 +1,5 @@
 a {
-	color: #0000FF;
+	color: #AAAAFF;
 	cursor: pointer;
 	font-size: 18px;
 }
@@ -50,6 +50,8 @@ a {
 textarea {
 	padding: 8px;
 	font-size: 18px;
+	color: white;
+	background-color: black;
 }
 
 
@@ -61,10 +63,29 @@ textarea {
 }
 
 
-#examples {
-	
+#elements, #hash, #init {
+	color: lightyellow;
 }
 
-#palette {
-	
+#examples {
+	background-color: rgb(0, 0, 54);
+	width:100%;
+	padding:8px;
+}
+
+
+#hashtable {
+	background-color: #303030;
+	height:100%;
+}
+
+
+body {
+	color: white;
+	background-color: black;
+}
+
+
+td {
+	vertical-align: top;
 }
